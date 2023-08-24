@@ -77,6 +77,11 @@ body{
 	background-color: hsl(0, 0%, 100%);
 }
 
+
+.accordion__content{
+	margin-left:1.25rem;
+}
+
 h1{
 	text-align: center;
 }
