@@ -49,8 +49,8 @@ h6 {
 	--Soft-red: hsl(14, 88%, 65%);
 	/* #### Gradient */
 	/* Background gradient: */
-	--soft-violet: hsl(273, 75%, 66%);
-	--soft-blue: hsl(240, 73%, 65%);
+	--gradient-violet: hsl(273, 75%, 66%);
+	--gradient-blue: hsl(240, 73%, 65%);
 	/* text */
 	--very-dark-grayish-blue: hsl(237, 12%, 33%);
 	--dark-grayish-blue: hsl(240, 6%, 50%);
@@ -63,4 +63,38 @@ h6 {
 
 body{
     font-family: 'Kumbh Sans', sans-serif;
+	font-size: var(--fs);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: linear-gradient(var(--gradient-violet), var(--gradient-blue));
+}
+
+
+.accordion__container{
+	max-width: 56rem;
+	width:100%;
+	height:auto;
+	padding:1.25rem;
+	border-radius:1.25rem;
+	background-color: hsl(0, 0%, 100%);
+}
+
+h1{
+	text-align: center;
+}
+
+.accordion__question {
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	color: var(--very-dark-grayish-blue);
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.accordion__rotate__arrow{
+	margin-left:0.625rem;
 }
