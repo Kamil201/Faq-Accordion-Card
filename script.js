@@ -8,6 +8,15 @@ const openAccordion = (btn) => {
 
 		const arrowImgEl = btn.querySelector(".accordion__rotate__arrow");
 
+        
+		if (answareEls.classList.contains("active")) {
+			answareEls.style.height = `${answareEls.scrollHeight}px`;
+			arrowImgEl.classList.add("rotate");
+		} else {
+			answareEls.style.height = "0px";
+			arrowImgEl.classList.remove("rotate");
+		}
+
 }
 
 
