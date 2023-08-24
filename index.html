@@ -11,9 +11,75 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<title>Document</title>
+		<title>Frontend Mentor | FAQ Accordion Card</title>
 	</head>
 	<body>
+
+        <section class="accordion__container">
+            <header class="accordion__image">
+                <picture>
+                   <source srcset= "./img/illustration-woman-online-desktop.svg" media= "(min-width:580px)">
+
+                   <img src="./img/illustration-woman-online-mobile.svg" alt="illustration-woman-online-mobile">
+                </picture>
+            </header>
+
+            <div class = "accordion__content">
+				<h1>FAQ</h1>
+				<button class="accordion__question">
+					How many team members can I invite?
+					<img class = "accordion__rotate__arrow" src="./img/icon-arrow-down.svg" alt="icon-arrow-down" />
+				</button>
+				<div class="accordion__answare">
+					<p>
+						You can invite up to 2 additional users on the Free plan. There is
+						no limit on team members for the Premium plan.
+					</p>
+				</div>
+				<button class="accordion__question">
+					What is the maximum file upload size?
+					<img class = "accordion__rotate__arrow" src="./img/icon-arrow-down.svg" alt="icon-arrow-down" />
+				</button>
+				<div class="accordion__answare">
+					<p>
+						No more than 2GB. All files in your account must fit your allotted
+						storage space.
+					</p>
+				</div>
+				<button class="accordion__question">
+					How do I reset my password?
+
+					<img class = "accordion__rotate__arrow" src="./img/icon-arrow-down.svg" alt="icon-arrow-down" />
+				</button>
+				<div class="accordion__answare">
+					<p>
+						Click “Forgot password” from the login page or “Change password”
+						from your profile page. A reset link will be emailed to you.
+					</p>
+				</div>
+				<button class="accordion__question">
+					Can I cancel my subscription?
+					<img class = "accordion__rotate__arrow" src="./img/icon-arrow-down.svg" alt="icon-arrow-down">
+				</button>
+				<div class="accordion__answare">
+					<p>
+						Yes! Send us a message and we’ll process your request no questions
+						asked.
+					</p>
+				</div>
+				<button class="accordion__question">
+					Do you provide additional support?
+					<img class = "accordion__rotate__arrow" src="./img/icon-arrow-down.svg" alt="icon-arrow-down">
+				</button>
+				<div class="accordion__answare">
+					<p>
+						Chat and email support is available 24/7. Phone lines are open
+						during normal business hours.
+					</p>
+				</div>
+			</div>
+        </section>
+
 		<script src="script.js"></script>
 	</body>
 </html>
