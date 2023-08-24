@@ -44,19 +44,13 @@ h6 {
 	isolation: isolate;
 }
 :root {
-	/* colors : text*/
 	--Very-dark-desaturated-blue: hsl(238, 29%, 16%);
 	--Soft-red: hsl(14, 88%, 65%);
-	/* #### Gradient */
-	/* Background gradient: */
 	--gradient-violet: hsl(273, 75%, 66%);
 	--gradient-blue: hsl(240, 73%, 65%);
-	/* text */
 	--very-dark-grayish-blue: hsl(237, 12%, 33%);
 	--dark-grayish-blue: hsl(240, 6%, 50%);
-	/* #### Dividers */
 	--light-grayish-blue: hsl(240, 5%, 91%);
-	/* font */
 	--fs: 12px;
 }
 
