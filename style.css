@@ -94,7 +94,15 @@ h1{
 	cursor: pointer;
 	background-color: transparent;
 }
+.accordion__question:focus {
+	font-weight: 800;
+}
 
 .accordion__rotate__arrow{
 	margin-left:0.625rem;
+}
+
+.rotate{
+	transform: rotate(180deg);
+	transition: transform .3s ease-in;
 }
