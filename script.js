@@ -1,14 +1,13 @@
-const btnEls = document.querySelectorAll(".accordion__question");
+const btnEls = document.querySelectorAll('.accordion__question')
+
+
+const openAccordion = (btn) => {
+   
+}
 
 
 
-const openAccordion = (item) => {
-	
-};
 
 
-btnEls.forEach((item) => {
-	item.addEventListener("click", () => {
-	
-	});
-});
+
+btnEls.forEach(btn => btn.addEventListener('click', () => openAccordion(btn)))
